@@ -18,6 +18,17 @@
 
 3. 按`F5`启动调试程序
 
+**PS: 若安装依赖过程中在node install.js卡住，可用下面方法解决** 
+ 
+  * 修改.npmc文件（C:\Users\用户），内容如下
+  ```
+  registry=http://registry.npm.taobao.org/
+  sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
+  phantomjs_cdnurl=http://npm.taobao.org/mirrors/phantomjs
+  ELECTRON_MIRROR=http://npm.taobao.org/mirrors/electron/
+  ```
+
+
 ## 打包发布
 
 1. 将`package-lock.json`和`package.json`中的`version`修改为要发布的版本号
@@ -30,7 +41,7 @@
 
     `npm install seed-client --save`
 
-4. 打windows安装包
+4. 打windows安装包，生成的安装包在`dist`文件夹下
 
     `npm run pack`
 
