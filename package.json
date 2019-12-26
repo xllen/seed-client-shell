@@ -1,0 +1,33 @@
+{
+  "name": "seed-client-shell",
+  "version": "1.0.0-rc",
+  "description": "Seed Client",
+  "main": "out/main.js",
+  "scripts": {
+    "start": "electron ./src/main.js",
+    "pack": "gulp package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xllen/seed-client-shell.git"
+  },
+  "author": "seed",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "moment": "^2.20.1",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^3.0.1"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "electron": "^6.1.1",
+    "electron-packager": "^10.1.1",
+    "electron-winstaller": "^2.6.3",
+    "fs-extra": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "pruner": "0.0.7",
+    "run-sequence": "^2.2.0"
+  }
+}

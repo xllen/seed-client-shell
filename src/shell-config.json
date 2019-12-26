@@ -1,0 +1,12 @@
+{
+  "debug": true,
+  "devTool": false,
+  "loadUrl": "http://localhost:4200",
+  "loadPath": "@gsafety/pivs-manager-client/dist/index.html",
+  "mainWindow": {
+    "minWidth": 1280,
+    "maxWidth": 1600,
+    "minHeight": 720,
+    "maxHeight": 900
+  }
+}
